@@ -55,3 +55,16 @@ body {
   bottom: 0px;
   z-index: 1;
 }
+
+.modal-title{
+  color: #000000;
+}
+
+.modal-body{
+  color: #000000;
+}
+
+.form-group{
+  font: medium sans-serif;
+
+}
