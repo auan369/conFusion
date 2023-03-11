@@ -3,6 +3,7 @@ $background-dark: #512DA8;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
 $background-black: #000000;
+$words-light: floralwhite;
 
 // Height variables
 $carousel-item-height: 300px;
@@ -77,15 +78,27 @@ body{
     z-index: 1;
 }
 
+
+
 .modal-title{
-    color: $background-black;
-  }
-  
-  .modal-body{
-    color: $background-black;
-  }
-  
-  .form-group{
-    font: medium sans-serif;
-  
-  }
+    color: $words-light;
+}
+
+.modal-body{
+color: $background-black;
+background-color: $background-pale
+}
+
+.modal-header{
+background-color: $background-dark;
+
+}
+.btn-secondary{
+color:$words-light;
+}
+
+
+.form-group{
+font: medium sans-serif;
+
+}
